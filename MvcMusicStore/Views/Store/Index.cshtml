@@ -14,6 +14,6 @@
 <ul>
     @foreach (var genre in Model)
     {
-        <li><a href="/Store/Browse?Genre=@genre.Name">@genre.Name</a></li>
+        <li>@Html.ActionLink(genre.Name, "Browse", new {genre = genre.Name})</li>
     }
 </ul>
