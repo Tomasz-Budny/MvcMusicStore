@@ -9,9 +9,16 @@ namespace MvcMusicStore.Controllers
 {
     public class StoreController : Controller
     {
-        public string Index()
+        public ActionResult Index()
         {
-            return "Index";
+            var genres = new List<Genre>
+            {
+                new Genre { Name = "Rock" },
+                new Genre { Name = "Disco" },
+                new Genre { Name = "Pop" }
+            };
+            
+            return View(genres);
         }
 
         public ActionResult Browse(string genre)

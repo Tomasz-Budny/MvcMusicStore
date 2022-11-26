@@ -154,6 +154,7 @@
         <Content Include="Views\Shared\_Layout.cshtml" />
         <Content Include="Views\Store\Browse.cshtml" />
         <Content Include="Views\Store\Details.cshtml" />
+        <Content Include="Views\Store\Index.cshtml" />
         <Content Include="Web.config" />
         <Content Include="Web.Debug.config">
             <DependentUpon>Web.config</DependentUpon>
