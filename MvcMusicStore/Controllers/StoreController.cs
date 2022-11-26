@@ -10,7 +10,7 @@ namespace MvcMusicStore.Controllers
     {
         public string Index()
         {
-            return "View()";
+            return "Index";
         }
 
         public string Browse()
